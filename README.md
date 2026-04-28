@@ -9,11 +9,16 @@ This project contains a single-file Streamlit application (`app.py`) that demons
 ## Implementation Details
 We developed a well-structured `app.py` encompassing your requirements:
 
-## 🌐 Live Demo
-You can view a live serverless version of this app running entirely in your browser using WebAssembly (via `stlite`):
-👉 **[Live Demo on GitHub Pages](https://andy19588.github.io/DIC7-ML/)**
+## 🌐 Live Demo & Deployment
+We have set up the project so it can be deployed directly to Streamlit Community Cloud with a single click.
 
-*(Note: Ensure you have enabled GitHub Pages from the repository Settings > Pages, and set the source to deploy from the `main` branch `/(root)`.)*
+[![Deploy to Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=andy19588/DIC7-ML&branch=main&mainModule=app.py)
+
+**How to deploy:**
+1. Click the "Deploy to Streamlit" button above.
+2. Log in with your GitHub account when prompted.
+3. Streamlit will automatically read the `app.py` and `requirements.txt` from your GitHub repository and build the environment.
+4. Your Live Demo will be online in a few minutes, hosted on a beautiful `your-app-name.streamlit.app` link!
 
 ## Implementation Details
 
