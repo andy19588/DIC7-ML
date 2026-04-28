@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Streamlit App</title>
+    <!-- stlite CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@stlite/mountable@0.31.1/build/stlite.css"/>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- stlite JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@stlite/mountable@0.31.1/build/stlite.js"></script>
+    <script>
+      stlite.mount({
+        requirements: ["numpy", "pandas", "matplotlib", "scikit-learn", "joblib"],
+        entrypoint: "app.py",
+        files: {
+          "app.py": {
+            url: "app.py"
+          }
+        }
+      }, document.getElementById("root"));
+    </script>
+  </body>
+</html>

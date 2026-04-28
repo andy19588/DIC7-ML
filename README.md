@@ -9,6 +9,14 @@ This project contains a single-file Streamlit application (`app.py`) that demons
 ## Implementation Details
 We developed a well-structured `app.py` encompassing your requirements:
 
+## 🌐 Live Demo
+You can view a live serverless version of this app running entirely in your browser using WebAssembly (via `stlite`):
+👉 **[Live Demo on GitHub Pages](https://andy19588.github.io/DIC7-ML/)**
+
+*(Note: Ensure you have enabled GitHub Pages from the repository Settings > Pages, and set the source to deploy from the `main` branch `/(root)`.)*
+
+## Implementation Details
+
 1. **Business Understanding**: Clearly defined the objective and success criteria for discovering the relationship between a single feature $X$ and the target $y$.
 2. **Data Understanding**: Handled data generation based on the uniform and normal distribution constraints, adding a visual scatter plot to verify the generated variables.
 3. **Data Preparation**: Leveraged `train_test_split` to divide the dataset and scaled features using `StandardScaler`.
